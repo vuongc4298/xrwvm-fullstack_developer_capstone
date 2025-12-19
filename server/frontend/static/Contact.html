@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="/static/style.css">
+
+    <style>
+        .contact-header {
+            background: linear-gradient(to right, #0d6efd, #0b5ed7);
+            color: white;
+            padding: 60px 0;
+        }
+
+        .contact-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="Home.html">Car Dealership</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Contact.html">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<section class="contact-header text-center">
+    <div class="container">
+        <h1 class="display-5 fw-bold">Contact Us</h1>
+        <p class="lead mt-3">
+            Have questions or need support? We’re here to help.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Info -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center contact-card h-100">
+                    <div class="card-body">
+                        <img src="/static/contactus.png" width="50" class="mb-3" alt="email">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">
+                            support@cardealer.com<br>
+                            sales@cardealer.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center contact-card h-100">
+                    <div class="card-body">
+                        <img src="/static/person.png" width="50" class="mb-3" alt="phone">
+                        <h5 class="card-title">Phone</h5>
+                        <p class="card-text">
+                            +84 987 654 321<br>
+                            Mon–Fri, 9AM–6PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center contact-card h-100">
+                    <div class="card-body">
+                        <img src="/static/car_dealership.jpg" width="50" class="mb-3" alt="office">
+                        <h5 class="card-title">Office</h5>
+                        <p class="card-text">
+                            456 Auto Street<br>
+                            Ho Chi Minh City
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center contact-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Social</h5>
+                        <p class="card-text">
+                            LinkedIn: Car Dealership<br>
+                            GitHub: /car-dealer
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">
+        © 2025 Car Dealership. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
